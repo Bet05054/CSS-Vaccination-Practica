@@ -1,0 +1,551 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    padding: relative;
+  
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    padding: 1px 150px;
+ 
+    
+   
+        
+}
+
+/*****Font****/
+
+h1{
+    font-size: 40px;
+    color: #2d4a7a;
+   
+    
+}
+
+h2 { 
+    font-size: 30px;
+    color: #2d4a7a;
+    padding: 25px 150px
+
+}
+
+h3 {
+    font-size: 15px;
+    color: #2d4a7a;
+    padding: 25px 150px
+}
+
+h4 {
+    font-size: 15px;
+    color: #2d4a7a;
+    
+}
+
+h5{
+    font-size: 15px;
+    color: #2d4a7a; 
+}
+
+p {
+    font-size: 15px;
+    color: #2d4a7a;
+    padding: 25px 150px   
+}
+
+/****button****/
+
+button{
+    font-size: 1em;
+    font-weight: 450;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 13px;
+    border: 1px solid rgba(0,0,0,0.0);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: #3146ff;
+    transition: background-color ease 0.3s;
+}
+
+button:hover{
+    background-color: #2a3ac5;
+}
+
+
+/*****Header****/
+
+.logo{
+    float: left;
+    font-size: 25px;
+    padding: 40px 50px;
+    font-weight: 600;
+    color: #3146ff;
+       
+}
+
+
+header .container1{
+    font-size: 10px;
+    line-height: 0; 
+    padding: 10px 100px;
+    background: #e9f1fc;
+    width: 100%;
+      
+}
+ 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 22px 210px;
+        
+}
+
+nav > a{
+    color:#a2aaba;
+    front-weight: 400px;
+    text-decoration: none;
+    padding: 10px 50px;
+
+
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+/****Contenedor Vacunate****/
+
+.Vacunate-textos{
+    font-size: 40px;
+    color: #2d4a7a;
+    
+    
+}
+
+.Vacunate img{
+    float: right;
+    margin-top: 0px;
+    padding: 10px 10px;
+    width: 400px;
+    border-radius: 5px;
+   
+}
+
+.menu-vacunate{
+    font-size: 40px;
+    color: #2d4a7a;
+}
+
+
+/****schedule-buttons****/
+
+.botones-container{
+    margin-top: 0px;
+    padding: 1px 120px;
+    width: 1030px;
+    border: 12px solid rgba(0,0,0,0.0);
+    box-shadow: 2px 10px 18px rgba(150, 24, 24, 0.123);
+    background: rgba(255, 255, 255, 0.842);
+    transition: background-color ease 0.3s;
+    color: #a2aaba;
+    position:absolute;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones button{
+    margin-top: 15px;
+    width: 80px;
+    height: 35px;
+    padding: 1px 15px;
+}
+
+.boton1 {
+    font-size: 1em;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 10px white;
+    color: #a2aaba ;
+    background-color: white;
+    display: inline;
+ 
+    
+}
+
+.boton1:hover{
+    background-color: rgb(238, 231, 231);
+}
+.boton2 {
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 10px white;
+    color: #a2aaba ;
+    background-color: white;
+    align-items: center;
+    display: inline;
+
+}
+
+.boton2:hover{
+    background-color: rgb(238, 231, 231);
+}
+.boton3 {
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 10px white;
+    color: #a2aaba ;
+    background: white;
+    align-items: right;
+    display: inline;
+
+}
+
+.boton3:hover{
+    background-color: rgb(243, 242, 242);
+}
+
+.boton-submit{
+    padding: 20px 25px
+
+}
+
+.botones a{
+    font-size: 12px;
+}
+
+.botones a{
+    text-decoration: none;
+    color: #2d4a7a;
+    font-weight: 600;
+    margin-top:15px;
+    margin-left: 16px;
+    width: 1px;
+}
+
+.logos img{
+    display: inline;
+    float: center;
+    width: 200px;  
+   
+}
+
+/****Section2/porque****/
+
+
+.cuadros{
+    margin-top: 60px;
+}
+
+
+
+.Cuadros-main p{
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px 30px;
+ 
+}
+
+ .Minimize{
+    margin-top:-5px;
+    margin-left: 50px;
+    width: 180px;
+    height: 200px;
+    box-shadow: 5px  5px 10px rgba(161, 161, 161, 0.459); 
+    border-radius: 10px;
+    text-align: center;
+
+
+ }
+ .Forming{
+    margin-top:-200px;
+    margin-left: 320px;
+    width: 180px;
+    height: 200px;
+    box-shadow: 5px  5px 10px rgba(161, 161, 161, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+    text-align: center;
+ }
+ .Protecting{
+    margin-top:-200px;
+    margin-left: 580px;
+    width: 180px;
+    height: 200px;
+    box-shadow: 5px  5px 10px rgba(161, 161, 161, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+ }
+ .Creating{
+    margin-top:-200px;
+    margin-left: 850px;
+    width: 180px;
+    height: 200px;
+    box-shadow: 5px  5px 10px rgba(161, 161, 161, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+ }
+
+
+
+
+
+/****Preparations****/
+
+.container2 img{
+    float: left;
+    margin-bottom: 120px;
+    margin-top: 100px;
+    padding: 20px 40px;
+    width: 550px;
+    border-radius: 5px; 
+
+} 
+
+.chica2-text h1{
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 5% 5%;
+    gap: 1em;
+    align-items: center;
+
+}
+
+.Option2 p{
+    text-align: center;
+    justify-content: center;
+}
+
+.Option2 p {
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.0);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.123);
+    transition: background-color ease 0.3s;
+    width: 500px;
+    height: 1px; 
+    margin-bottom: 10px;
+}
+
+.Avoid p {
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.0);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.123);
+    transition: background-color ease 0.3s;
+    width: 500px;
+    height: 1px; 
+    margin-bottom: 10px;
+}
+
+.Eat p {
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.0);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.123);
+    transition: background-color ease 0.3s;
+    width: 500px;
+    height: 1px; 
+    margin-bottom: 10px;
+}
+
+.Get p {
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.0);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.123);
+    transition: background-color ease 0.3s;
+    width: 500px;
+    height: 1px; 
+    margin-bottom: 10px;
+}
+
+.Excersice p {
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.0);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.123);
+    transition: background-color ease 0.3s;
+    width: 500px;
+    height: 1px; 
+    margin-bottom: 10px;
+}
+
+
+/****Emergency****/
+
+.container3 img{
+    float: right;
+    margin-top: 0px;
+    padding: 10px 10px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.Chico p{
+   text-align: left;
+   justify-content: center;
+   color:#a2aaba;
+   front-weight: 400px;
+}
+.Contact1 h4{
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    color:#a2aaba;
+    front-weight: 400px;
+ }
+ .Contact1 button{
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.0);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    color: #3146ff;
+    background-color: hsla(214, 20%, 93%, 0.925);
+    transition: background-color ease 0.3s;
+ }
+ .Contact1 button{
+    margin-top:35px;
+    margin-left: 10px;
+ }
+
+ 
+
+.Call{
+    margin-top:-5px;
+    margin-left: 165px;
+    width: 160px;
+    height: 135px;
+    box-shadow: 5px  5px 10px rgba(161, 161, 161, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;  
+}
+.Chat{
+    margin-top:-135px;
+    margin-left: 380px;
+    width: 160px;
+    height: 135px;
+    box-shadow: 5px  5px 10px rgba(161, 161, 161, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px; 
+}
+.Video{
+    margin-top:25px;
+    margin-left: 165px;
+    width: 160px;
+    height: 135px;
+    box-shadow: 5px  5px 10px rgba(161, 161, 161, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px; 
+}
+.Message{
+    margin-top:-135px;
+    margin-left: 380px;
+    width: 160px;
+    height: 135px;
+    box-shadow: 5px  5px 10px rgba(161, 161, 161, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+/***Footer***/
+
+.Footer p{
+    font-size: 10px;
+}
+
+.Footer p{
+    color:#a2aaba;
+    front-weight: 400px;
+   
+}
+
+.Footer{
+    margin-top: 150px;
+    background-color: #eef5fd;
+    margin-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 300px; 
+    width: 100%;
+    margin-bottom: 0;
+
+}
+
+.Vaccination{  
+    margin-left: 1px;
+       
+}
+
+.Vaccination h3{
+    font-weight: 900;
+    color: #3146ff;;
+}
+
+.About{
+    margin-top: -160px;
+    margin-left: 650px;
+}
+.Company{
+    margin-top: -260px;
+    margin-left: 780px;
+    
+}
+
+.Support{
+    margin-top: -260px;
+    margin-left: 900px;
+}
+
+.CR h4{
+    color:#a2aaba;
+    front-weight: 400px; 
+    font-size: 10px;
+    margin-top: -20px;
+    margin-left: 105px;
+}
+
+.PrivacyP h4{
+    color:#a2aaba;
+    front-weight: 400px;
+    font-size: 10px;  
+    margin-top: -20 px;
+    margin-left: 900px;
+}
+.PrivacyP2 h4{
+    color:#a2aaba;
+    front-weight: 400px;
+    font-size: 10px;  
+    margin-top: -15px;
+    margin-left: 1050px;
+}
+
+    
+
+
+ 
+    
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
